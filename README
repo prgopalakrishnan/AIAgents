@@ -1,0 +1,18 @@
+#Setting up environments
+
+python3 -m venv venv
+source venv/bin/activate     # On macOS/Linux
+venv\Scripts\activate        # On Windows
+pip install openai
+
+
+
+#Setting up OpenAPI Key
+export OPENAI_API_KEY="your-openai-key"
+
+
+#To Run
+python3 spam_classsifer.py
+Enter an email address to classify:
+# You would see the result here
+
